@@ -1,9 +1,14 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hello-world
+  name: hello-world-deployment
+  labels:
+    app: hello-world
 spec:
-  replicas: 1 
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hello-world
   template:
     metadata:
       labels:
@@ -12,5 +17,5 @@ spec:
       containers:
       - name: hello-world-pod
         image: etejeda/hello-app-golang:latest
-        ports: 
+        ports:
         - containerPort: 8080
