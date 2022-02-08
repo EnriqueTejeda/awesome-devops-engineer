@@ -1,0 +1,6 @@
+eksctl create iamserviceaccount \
+--cluster=<CLUSTER-NAME> \
+--namespace=kube-system \
+--name=aws-load-balancer-controller \
+--attach-policy-arn=<ARN-POLICY>  \
+--approve

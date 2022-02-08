@@ -1,0 +1,5 @@
+clusterName: "cluster-name"
+watchNamespace: "kube-system"
+serviceAccount:
+  create: false
+  name: "aws-load-balancer-controller"
