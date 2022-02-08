@@ -25,7 +25,7 @@ This repository is a collection of resources for my DevOps Learning Path
 - [Scaling Jenkins On Kubernetes](https://www.jenkins.io/doc/book/scaling/scaling-jenkins-on-kubernetes/)
 - [Installing Jenkins On Kubernetes](https://www.jenkins.io/doc/book/installing/kubernetes/)
 - [Installing Jenkins On Docker](https://www.jenkins.io/doc/book/installing/docker/)
-- [Jenkins Pipeline Syntax Docs] (https://www.jenkins.io/doc/book/pipeline/syntax/)
+- [Jenkins Pipeline Syntax] (https://www.jenkins.io/doc/book/pipeline/syntax/)
 ### Examples
 - [Simple Workflow on Jenkins]()
 ## Helm
